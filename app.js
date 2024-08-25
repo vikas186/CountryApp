@@ -3,6 +3,7 @@ const app = express();
 require('dotenv').config()
 const cors = require('cors');
 
+
 app.use(express.json())
 app.use(cors()); // Allow all origins or specify your frontend origin
 
@@ -18,4 +19,6 @@ mongoose.connect(conn.url).then(() => {
      });
 
 module.exports = app
+
+
 
