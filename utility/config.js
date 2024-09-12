@@ -1,12 +1,7 @@
 module.exports = {
     PORT : process.env.PORT,
     DB_HOST: process.env.DB_HOST,
-    JWT_SECRET_KEY: process.env.JWT_SECRET_KEY
+    REST_COUNTRIES_API_URL: process.env.REST_COUNTRIES_API_URL
 }
 
-module.exports = {
-    PORT : process.env.PORT,
-    DB_HOST: process.env.DB_HOST,
-    JWT_SECRET_KEY: process.env.JWT_SECRET_KEY
-}
 
